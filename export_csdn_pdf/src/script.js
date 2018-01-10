@@ -5,11 +5,7 @@ alert("Google Export PDF");
 $("div .commentform").remove();
 var $articleDiv = $("#article_details");
 var $cloneDiv = $articleDiv.clone(true, true);
-
 var $commentDiv = $("div .comment_class");
-
-
-
 var $cloneCommentDiv = $commentDiv.clone(true, true);
 var $bodyDiv = $("body");
 var $mainDiv = $(".main");
