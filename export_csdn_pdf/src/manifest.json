@@ -2,13 +2,13 @@
   "name": "Flutter",
   "manifest_version": 2,
   "version": "1.0",
-  "description": "I Love Flutter ~~ï¼?",
+  "description": "PDF Export",
   "browser_action": {
     "default_icon": "1.png"
   },
   "content_scripts": [
-    {
-      "matches": ["http://blog.csdn.net/*/article/*"],
+    { 
+      "matches": ["https://blog.csdn.net/*/article/*"],
       "js": ["jquery-3.2.1.min.js","script.js"]
     }
   ]
